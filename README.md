@@ -15,7 +15,7 @@ class About extends Me{
     Now<> getTechStack()
     {
         return [
-            'languages' => [  '.dart' '.cpp' '.py' '.js' '.cpp' '.java'  ],
+            'languages' => [  '.dart' '.cpp' '.py' '.js' '.java'  ],
             'frameworks' => [  'flutter' 'node' 'django' 'react' ],
             'database' => [  'MySql'  ],
             'softwares' => [  'android-studio' 'vs-code' 'chrome' 'windows-terminal'  ],
