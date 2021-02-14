@@ -41,6 +41,9 @@ class About extends Me{
      Present<> getCommunityExperience()
     {
         return [
+         'community' => [
+            'company' => 'Microsoft Student Ambassador',
+            'position' => 'Alpha Mlsa'
             'community' => [
                 'company' => 'Google Crowdsource',
                 'position' => 'Influencer & Contributor'
