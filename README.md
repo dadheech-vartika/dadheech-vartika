@@ -15,8 +15,8 @@ class About extends Me{
     Now<> getTechStack()
     {
         return [
-            'languages' => [  '.dart' '.cpp' '.py' '.js' '.java'  ],
-            'frameworks' => [  'flutter' 'node' 'django' 'react' ],
+            'languages' => [  '.dart' '.cpp' '.py' '.js'  ],
+            'frameworks' => [  'flutter' 'node' 'react' ],
             'database' => [  'MySql'  ],
             'softwares' => [  'android-studio' 'vs-code' 'chrome' 'windows-terminal'  ],
             'libraries' => [  'openCV' ],
@@ -28,12 +28,16 @@ class About extends Me{
     {
         return [
             'workplace' => [
-                'company' => 'AnitaB.org Institute for Women and Technology',
-                'position' => 'Open Source Developer @ Open Source Hack for beginners'
+                'organisation' => 'GeeksforGeeks',
+                'position' => 'Technical Content Writer'
             ],
             'workplace' => [
-                'company' => 'HakinCodes',
+                'organisation' => 'HakinCodes',
                 'position' => 'Open Source Flutter delevoper @ Contributor's Hack'
+            ],
+            'workplace' => [
+                'organisation' => 'Sanscript',
+                'position' => 'Open Source Mentor @ Autumn of Open Source'
             ]
         ];
     }
