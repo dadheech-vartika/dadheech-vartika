@@ -7,7 +7,7 @@ class About extends Me{
         return [
             'workplace' => [
                 'company' => '404 Not Found',
-                'position' => 'Looking for SDE Internships for Summers 2021'
+                'position' => 'Looking for Software and Developer Advocate roles'
             ]
         ];
     }
@@ -29,7 +29,7 @@ class About extends Me{
         return [
             'workplace' => [
                 'organisation' => 'GeeksforGeeks',
-                'position' => 'Technical Content Writer'
+                'position' => 'Technical Content Engineer'
             ],
             'workplace' => [
                 'organisation' => 'HakinCodes',
@@ -38,6 +38,10 @@ class About extends Me{
             'workplace' => [
                 'organisation' => 'Sanscript',
                 'position' => 'Open Source Mentor @ Autumn of Open Source'
+            ]
+            'workplace' => [
+                'organisation' => 'Girlscript',
+                'position' => 'Open Source Mentor @ Girlscript summer of code '
             ]
         ];
     }
